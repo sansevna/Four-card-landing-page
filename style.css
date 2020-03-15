@@ -1,0 +1,110 @@
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  color:hsl(229, 6%, 66%);
+  margin-top: 20px;
+}
+
+h3{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+#slim{
+  font-weight: 200;
+}
+
+#bold{
+  font-weight: 600;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.jumbotron{
+  background-color:hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 60px;
+}
+
+.box{
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px hsl(229, 6%, 66%);
+    padding: 40px;
+    height: 250px;
+}
+
+.one{
+  border-top: 5px solid hsl(180, 62%, 55%);
+  margin: 30px 40px 30px;
+  }
+
+.two{
+  border-top: 5px solid hsl(0, 78%, 62%);
+  margin: -70px 40px 30px;
+  }
+
+.three{
+  border-top: 5px solid hsl(212, 86%, 64%);
+  margin-top: 30px;
+}
+.five{
+  border-top: 5px solid hsl(34, 97%, 64%);
+  margin: -90px 40px 30px;
+  }
+
+.four{
+  padding: 40px;
+  margin: 30px 40px 30px;
+  height: 250px;
+}
+.six{
+    padding: 40px;
+    height: 250px;
+  }
+#footer{
+  margin-top: -30px;
+}
+
+ @media (max-width: 990px){
+   .box{
+     height: 300px;
+     padding:30px;
+   }
+}
+@media (max-width: 515px){
+.jumbotron{
+  margin-bottom: 0px;
+}
+.box{
+  height: 250px;
+  padding: 30px;
+}
+.one{
+  margin-top: 0px;
+  }
+.two{
+    margin: 10px 40px 30px;
+}
+
+.three{
+    margin: 10px 40px 30px;
+}
+.four{
+  display: none;
+}
+
+.five{
+   margin: 10px 40px 30px;
+}
+
+.six{
+  display: none;
+ }
+}
